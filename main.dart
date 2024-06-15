@@ -11,13 +11,13 @@ main() {
   for (int a = 1; a <= 3; a++) {
     var rand = random.nextInt(5) + 1;
     if (rand == numberConverted) {
-      print('Congatulations you guessed the right !');
-      print('The number guessed by the computer is $rand');
+      print('Congatulations you guessed the right number !');
+      print('The number picked by the computer is $rand');
       break;
     } else {
       print("Attempt $a failled!!!");
       print('You guessed the wrong number !');
-      print('The number guessed by the computer is $rand');
+      print('The number picked by the computer is $rand');
       if (a == 3) {
         break;
       }
